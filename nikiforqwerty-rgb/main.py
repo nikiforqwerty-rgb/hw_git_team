@@ -1,4 +1,5 @@
 def print_hi(name):
+    '''Функция привет'''
     print(f'Hi, {name}')  
 
 
