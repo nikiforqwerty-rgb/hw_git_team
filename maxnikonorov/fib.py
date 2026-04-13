@@ -1,8 +1,8 @@
 def fibonacci(n):
-    a, b = 0, 1
+    first_num, second_num = 0, 1
     for _ in range(n):
-        a, b = b, a + b
-    return a
+        first_num, second_num = second_num, first_num + second_num
+    return first_num
 
 
 print(fibonacci(10))
