@@ -1,4 +1,4 @@
-def print_hi(name):
+def print_hi(name='Human'):
     '''Функция привет'''
     print(f'Hi, {name}')  
 
