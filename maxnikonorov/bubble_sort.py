@@ -9,7 +9,7 @@ def bubble_sort(arr):
                 # Меняем элементы местами
                 arr[j], arr[j + 1] = arr[j + 1], arr[j]
     return arr
-
+# Пример список на 7 чисел
 numbers = [64, 34, 25, 12, 22, 11, 90]
 sorted_numbers = bubble_sort(numbers)
 print(f"Отсортированный список: {sorted_numbers}")
